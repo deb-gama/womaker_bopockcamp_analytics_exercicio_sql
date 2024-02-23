@@ -1,0 +1,29 @@
+[
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "kind": 5,
+        "importPath": "connection",
+        "description": "connection",
+        "peekOfCode": "connection = sqlite3.connect('desafio_db.db')\ncursor = connection.cursor()\ncursor.execute('CREATE TABLE alunos(id INT, nome VARCHAR(100), idade INT, curso VARCHAR(100));')\nconnection.commit()\nconnection.close()",
+        "detail": "connection",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "connection",
+        "description": "connection",
+        "peekOfCode": "cursor = connection.cursor()\ncursor.execute('CREATE TABLE alunos(id INT, nome VARCHAR(100), idade INT, curso VARCHAR(100));')\nconnection.commit()\nconnection.close()",
+        "detail": "connection",
+        "documentation": {}
+    }
+]
